@@ -8,7 +8,7 @@
 </p>
 
 > Get your own menu roles for your discord server<BR>
-> written in discord.js v13 by Whirl
+> written in discord.js v13 by Fruity
 
 ## Install (Requires [Node.js v16.6](https://nodejs.org/en/))
 
@@ -27,17 +27,3 @@ node .
 ```sh
 npm run test
 ```
-
-## Author
-
-👤 **Whirl**
-
-* Website: whirl.codes
-* Twitter: [@Whirl\_21](https://twitter.com/Whirl\_21)
-* Github: [@Whirl21](https://github.com/Whirl21)
-
-## Show your support
-
-Give a ⭐️ if this project helped you!
-
-***
