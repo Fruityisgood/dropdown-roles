@@ -1,5 +1,5 @@
 {
-  "name": "SelectRoles",
+  "name": "dropdown",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
@@ -7,8 +7,8 @@
     "test": "nodemon index.js"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": "Fruity",
+  "license": "UNLICENSED",
   "dependencies": {
     "discord.js": "^13.1.0",
     "nodemon": "^2.0.12"
