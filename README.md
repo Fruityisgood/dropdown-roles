@@ -14,17 +14,17 @@
 Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.json`
 ```json
 {
-    "token":"", //bot token (dont share this)
-    "r1":"", //role 1 id
-    "r2":"", //role2 id
-    "r3":"", //role3 id
+    "token":"", //bot token
+    "r1":"", //role1id
+    "r2":"", //role2id
+    "r3":"", //role3id
     "r4":"", //role4id
-    "r5":"",//role5id
-    "r1m":"",//role 1 emoji
-    "r2m":"",//role 2 emoji
-    "r3m":"",//role3 emoji
-    "r4m":"",//role4 emoji
-    "r5m":""//role5 emoji
+    "r5":"", //role5id
+    "r1m":"", //role 1 emoji
+    "r2m":"", //role 2 emoji
+    "r3m":"", //role 3 emoji
+    "r4m":"", //role 4 emoji
+    "r5m":"", //role 5 emoji
   
 }
 ```
