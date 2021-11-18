@@ -10,20 +10,30 @@
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
 
-## Install (Requires [Node.js v16.6](https://nodejs.org/en/))
+# Getting started
+Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.json`
+```json
+{
+    "token":"", //bot token (dont share this)
+    "r1":"", //role 1 id
+    "r2":"", //role2 id
+    "r3":"", //role3 id
+    "r4":"", //role4id
+    "r5":"",//role5id
+    "r1m":"",//role 1 emoji
+    "r2m":"",//role 2 emoji
+    "r3m":"",//role3 emoji
+    "r4m":"",//role4 emoji
+    "r5m":""//role5 emoji
+  
+}
+```
 
-```sh
+# Install
+```bash
 npm i
 ```
-
-## Usage
-
-```sh
+# Start
+```bash
 node .
-```
-
-## Run tests
-
-```sh
-npm run test
 ```
