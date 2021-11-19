@@ -38,6 +38,6 @@ npm i
 node .
 ```
 ## Website
-  https://fruityisgood.github.io/dropdown-roles/
+  [https://dropdown-roles.com] (https://fruityisgood.github.io/dropdown-roles/)
 ## Support
   Server coming soon
