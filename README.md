@@ -1,4 +1,3 @@
-<Title>Dropdown roles
 <h1 align="center">Dropdown roles</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
@@ -6,8 +5,6 @@
 </p>
   <img alt="Version" src="https://img.shields.io/badge/really-cool-orange" />
   </a>
-
-</p>
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
 
