@@ -8,7 +8,7 @@
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
 
-# Getting started
+## Getting started
 Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.json`
 ```json
 {
@@ -27,11 +27,11 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/a
 }
 ```
 
-# Install
-```bash
+## Install
+```sh
 npm i
 ```
-# Start
-```bash
+## Start
+```sh
 node .
 ```
