@@ -4,7 +4,9 @@
   </a>
   <img alt="cool" src="https://img.shields.io/badge/really-cool-orange" />
   </a>
-  
+  <img alt="version" src="https://img.shields.io/github/package-json/v/Fruityisgood/dropdown-roles" />
+  </a>
+    
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
 
