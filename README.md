@@ -4,7 +4,10 @@
   </a>
 
 </p>
+  <img alt="Version" src="https://img.shields.io/badge/really-cool-orange" />
+  </a>
 
+</p>
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
 
