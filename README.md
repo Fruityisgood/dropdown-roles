@@ -2,8 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   </a>
-</p>
-  <img alt="Version" src="https://img.shields.io/badge/really-cool-orange" />
+  <img alt="cool" src="https://img.shields.io/badge/really-cool-orange" />
   </a>
   
 > Get your own menu roles for your discord server<BR>
