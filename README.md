@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&label=version" />
   </a>
-  <img alt="chat" src="https://img.shields.io/badge/chat-23458%20online-brightgreen" />
+  <a href="https://discord.gg/vWPf6radPk"><img alt="chat" src="https://img.shields.io/badge/chat-23458%20online-brightgreen" />
   </a>
     
 > Get your own menu roles for your discord server<BR>
@@ -38,4 +38,4 @@ node .
 ## Website
   [our website](https://fruityisgood.github.io/dropdown-roles/)
 ## Support
-  Server coming soon
+  [Support server](https://discord.gg/vWPf6radPk)
