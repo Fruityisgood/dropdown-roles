@@ -39,3 +39,5 @@ node .
 ```
 ## Website
   https://fruityisgood.github.io/dropdown-roles/
+## Support
+  Server coming soon
