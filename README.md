@@ -4,8 +4,6 @@
   </a>
   <img alt="rate" src="https://img.shields.io/badge/rated-awesome%F0%9F%91%8D-orange" />
   </a>
-  <img alt="version" src="https://img.shields.io/github/package-json/v/Fruityisgood/dropdown-roles" />
-  </a>
     
 > Get your own menu roles for your discord server<BR>
 > written in discord.js v13 by Fruity
