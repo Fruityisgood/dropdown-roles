@@ -2,7 +2,7 @@
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version-1.0.0-blue.svg?cacheSeconds=2592000" />
   </a>
-  <img alt="rated as" src="awesome👍" />
+  <img alt="rate" src="https://img.shields.io/badge/rated-awesome%F0%9F%91%8D-orange" />
   </a>
   <img alt="version" src="https://img.shields.io/github/package-json/v/Fruityisgood/dropdown-roles" />
   </a>
