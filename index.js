@@ -4,7 +4,7 @@ const { Client, Intents, MessageActionRow, MessageSelectMenu } = require('discor
 // create a new Discord client
 const client = new Client({ intents: [Intents.FLAGS.GUILDS] });
 
-const {token , r1 , r2 ,r3 ,r4,r5 , r1m , r2m , r3m , r4m , r5m} = require('./config.json')
+const {token , r1 , r2 ,r3 ,r4,r5 , r1m , r2m , r3m , r4m , r5m} = require('./config.js')
 //event triggered when the client is ready/online logs ready {@type string} in the console
 
 
