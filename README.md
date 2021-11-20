@@ -9,7 +9,7 @@
 > written in discord.js v13 by Fruity
 
 ## Getting started
-Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.js`
+Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/releases/latest/)`
 ```json
 {
     "token":"", //bot token
