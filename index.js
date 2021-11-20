@@ -10,7 +10,7 @@ const {token , r1 , r2 ,r3 ,r4,r5 , r1m , r2m , r3m , r4m , r5m} = require('./co
 
 
 client.once('ready', () => {
-    console.log('Bot is online!');
+    console.log('${client.user.tag} is online!');
 });
 
 client.on('interactionCreate', async interaction => {
