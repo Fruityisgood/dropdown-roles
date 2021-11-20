@@ -1,124 +1,96 @@
-<html lang="en"><head><meta http-equiv="content-type" content="text/html;charset=UTF-8">
-
-
-	<meta charset="UTF-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-	<meta http-equiv="X-UA-Compatible" content="ie=edge">
-	<title>Discord Dropdown roles</title>
-	<!-- SEO -->
-	<meta name="language" content="EN">
-	<meta name="author" content="Fruity">
-	<meta name="author:username" content="Fruity">
-	<meta name="url" content="https://fruityisgood.github.io/dropdown-roles/">
-	<meta name="identifier-URL" content="https://fruityisgood.github.io/dropdown-roles/">
-
-	<!-- OpenGraph -->
-	<meta name="og:title" content="Dropdown roles">
-	<meta property="og:type" content="website">
-	<meta property="og:url" content="https://fruityisgood.github.io/dropdown-roles/">
-	<meta property="og:site_name" content="Dropdown roles">
-	<meta name="og:description" content="A self role system with dropdowns">
-
-	<!-- Manifest -->>
-	<meta name="msapplication-TileColor" content="#000000">
-	<meta name="theme-color" content="#1F1F1F">
-	<!-- Custom stylesheet -->
-</head>
-
-<body data-theme="dark" data-aos-easing="ease" data-aos-duration="400" data-aos-delay="0">
-	<div class="site-wrapper overflow-hidden">
-		<!-- Header Area -->
-		<header class="site-header site-header--menu-center site-header--absolute">
-			<div class="container-fluid pr-lg-9 pl-lg-9">
-				<nav class="navbar site-navbar offcanvas-active navbar-expand-lg  px-0">
-					<!-- Brand Logo-->
-					<div class="brand-logo"><a href="index.html">
-							<!-- light version logo (logo must be black)-->
-							<h1 class="dark-version-logo mt-5">BetterDiscordPanel</h1>
-						</a></div>
-					<div class="navbar-collapse collapse" id="mobile-menu" style="">
-						<div class="navbar-nav-wrapper">
-							<ul class="navbar-nav main-menu">
-								<li class="nav-item dropdown">
-									<a class="nav-link" href="#Getting started" role="button" aria-expanded="false">Getting started</a>
-								</li>
-								<li class="nav-item dropdown">
-									<a class="nav-link" target="_blank" href="https://github.com/Fruityisgood/dropdown-roles" role="button" aria-expanded="false">GitHub</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" target="_blank" href="https://discord.gg/vWPf6radPk" role="button" aria-expanded="false">Discord</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" target="_blank" href="https://fruityisgood.github.io/dropdown-roles/docs" role="button" aria-expanded="false">Documentation</a>
-								</li>
-								<li class="nav-item">
-									<a class="nav-link" href="https://discord.gg/vWPf6radPk" role="button" aria-expanded="false" target="_blank">Support</a>
-								</li>
-							</ul>
-						</div>
-						<button class="d-block d-lg-none offcanvas-btn-close collapsed" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
-							<i class="gr-cross-icon"></i>
-						</button>
-					</div>
-					<div class="header-btn  ml-auto ml-lg-5 mr-6 mr-lg-0 d-none d-xs-block">
-						<a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest" class="btn btn-primary gr-text-9" target="_blank">
-							Download
-						</a>
-					</div>
-					<!-- Mobile Menu Hamburger-->
-					<button class="navbar-toggler btn-close-off-canvas hamburger-icon border-0 collapsed" type="button" data-toggle="collapse" data-target="#mobile-menu" aria-controls="mobile-menu" aria-expanded="false" aria-label="Toggle navigation">
-						<!-- <i class="icon icon-simple-remove icon-close"></i> -->
-						<span class="hamburger hamburger--squeeze js-hamburger">
-							<span class="hamburger-box">
-								<span class="hamburger-inner"></span>
-							</span>
-						</span>
-					</button>
-					<!--/.Mobile Menu Hamburger Ends-->
-				</nav>
-			</div>
-		</header>
-		<!-- navbar-light -->
-		<!-- Hero Area -->
-		<!-- Hero Area -->
-		<div class="pb-11 pb-lg-14 pt-25 pt-lg-29 bg-default-1 position-relative">
-			<div class="container">
-				<div class="row justify-content-center align-items-center">
-					<div class="col-xl-6 col-lg-7 col-md-9 col-sm-10 aos-init aos-animate" data-aos="fade-right" data-aos-duration="500" data-aos-once="true">
-						<div class="hero-content text-center">
-							<h1 class="gr-text-3 mb-8">Dropdown roles</h1>
-							<p class="gr-text-8">A self role system with dropdowns.
-							</p>
-<p><h1 align="center">Dropdown roles</h1></p>
-<p><p>
-  <img alt="version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&label=version" />
+<title>Discord Dropdown roles</title>
+<html><head></head><body><h1 align="center">Dropdown roles</h1>
+<p>
+  <img alt="Version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&amp;label=version">
+  
+  <a href="https://discord.gg/vWPf6radPk"><img alt="chat" src="https://img.shields.io/badge/chat-23458%20online-brightgreen">
   </a>
-  <a href="https://discord.gg/vWPf6radPk"><img alt="chat" src="https://img.shields.io/badge/chat-23458%20online-brightgreen" />
-  </a>
-<blockquote>
-<p>Get your own menu roles for your discord server<BR>
+</p><blockquote>
+<p>Get your own menu roles for your discord server<br>
 written in discord.js v13 by Fruity</p>
 </blockquote>
-<h2 id="getting-started">Getting started</h2>
-<p>Download the source code <a href="https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/">here</a> and enter details in <code>config.json</code></p>
-<pre><code class="lang-json">{
-    <span class="hljs-string">"token"</span>:<span class="hljs-string">""</span>, //bot token
-    <span class="hljs-string">"r1"</span>:<span class="hljs-string">""</span>, //role1id
-    <span class="hljs-string">"r2"</span>:<span class="hljs-string">""</span>, //role2id
-    <span class="hljs-string">"r3"</span>:<span class="hljs-string">""</span>, //role3id
-    <span class="hljs-string">"r4"</span>:<span class="hljs-string">""</span>, //role4id
-    <span class="hljs-string">"r5"</span>:<span class="hljs-string">""</span>, //role5id
-    <span class="hljs-string">"r1m"</span>:<span class="hljs-string">""</span>, //<span class="hljs-keyword">role</span> <span class="hljs-title">1</span> emoji
-    <span class="hljs-string">"r2m"</span>:<span class="hljs-string">""</span>, //<span class="hljs-keyword">role</span> <span class="hljs-title">2</span> emoji
-    <span class="hljs-string">"r3m"</span>:<span class="hljs-string">""</span>, //<span class="hljs-keyword">role</span> <span class="hljs-title">3</span> emoji
-    <span class="hljs-string">"r4m"</span>:<span class="hljs-string">""</span>, //<span class="hljs-keyword">role</span> <span class="hljs-title">4</span> emoji
-    <span class="hljs-string">"r5m"</span>:<span class="hljs-string">""</span>, //<span class="hljs-keyword">role</span> <span class="hljs-title">5</span> emoji
-
-}
+<h2>Getting started</h2>
+<p>Download the source code <a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest/">here</a></p>
+<h2>How to use</h2>
+<p>View <a href="https://fruityisgood.github.io/dropdown-roles/docs">documentation</a>.</p>
+<h2>Install</h2>
+<pre><code class="language-sh">npm i
 </code></pre>
-<h2 id="install">Install</h2>
-<pre><code class="lang-sh"><span class="hljs-built_in">npm</span> i
+<h2>Start</h2>
+<pre><code class="language-sh">node .
 </code></pre>
-<h2 id="start">Start</h2>
-<pre><code class="lang-sh"><span class="hljs-keyword">node</span>.<span class="hljs-title"></span>
-</code></pre>
+<h2>Website</h2>
+<p><a href="https://fruityisgood.github.io/dropdown-roles/">our website</a></p>
+<h2>Support</h2>
+<p><a href="https://discord.gg/vWPf6radPk">Support server</a></p>
+<h2>Resources</h2>
+<table>
+	<thead>
+		<tr>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://github.com/fosscord/fosscord">Website</a></td>
+			<td>Our website</td>
+			<td>
+				<img src="https://img.shields.io/badge/-website-blue">
+				<img src="https://img.shields.io/website?down_color=red&amp;down_message=down&amp;up_color=green&amp;up_message=up&amp;url=https%3A%2F%2Ffruityisgood.github.io%2Fdropdown-roles">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest">Latest version</a>
+			</td>
+			<td>
+				The latest version of the bot
+			</td>
+			<td>
+				<img src="https://img.shields.io/github/downloads/Fruityisgood/dropdown-roles/latest/total">
+        <img src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?color=yellow&amp;include_prereleases">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/Fruityisgood/dropdown-roles/#Getting started">
+		Github
+		</a>
+			</td>
+			<td>
+				Our github of course
+			</td>
+			<td>
+				<img src="https://img.shields.io/github/languages/top/Fruityisgood/dropdown-roles?color=red">
+				<img src="https://img.shields.io/badge/Javascript-43.0%25-yellow">
+        <img src="https://img.shields.io/badge/Batchfile-0.3%25-brightgreen">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://fruityisgood.github.io/dropdown-roles/docs">
+				Documentation
+				</a>
+			</td>
+			<td>Our documentation</td>
+			<td>
+				<img src="https://img.shields.io/badge/not%20done-grey">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://discord.gg/vWPf6radPk">
+				Discord
+				</a>
+			</td>
+			<td>A Image manipulation api for adjustable discord rank cards and many more (coming soon)</td>
+			<td>
+				<img src="https://img.shields.io/badge/chat-23458%20online-brightgreen">
+        <img src="https://img.shields.io/badge/members-578K-orange">
+			</td>
+		</tr>
+	</tbody>
+</table>
+</body></html>
