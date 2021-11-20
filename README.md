@@ -44,7 +44,7 @@ node .
 ## Resources
   | Name | Tags |
 | :--- | :--- |
-| [Website](https://fruityisgood.github.io/dropdown-roles) | https://img.shields.io/badge/-website-blue |
+| [Website](https://fruityisgood.github.io/dropdown-roles) | <p>https://img.shields.io/badge/-website-blue</p> |
 | [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
 | [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
 | [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
