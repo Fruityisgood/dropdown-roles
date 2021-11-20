@@ -42,9 +42,9 @@ node .
 ## Support
   [Support server](https://discord.gg/vWPf6radPk)
 ## Resources
-  | Repo name | Brief description |
+  | Name | Tags |
 | :--- | :--- |
-| [Server](https://github.com/fosscord/fosscord-Server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard |
+| [Website](https://fruityisgood.github.io/dropdown-roles) | https://img.shields.io/badge/-website-blue |
 | [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
 | [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
 | [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
