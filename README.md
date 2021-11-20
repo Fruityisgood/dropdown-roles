@@ -9,7 +9,7 @@
 > written in discord.js v13 by Fruity
 
 ## Getting started
-Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.json`
+Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/archive/refs/tags/1.0.0.zip/) and enter details in `config.js`
 ```json
 {
     "token":"", //bot token
@@ -42,9 +42,72 @@ node .
 ## Support
   [Support server](https://discord.gg/vWPf6radPk)
 ## Resources
-  | Name | Tags |
-| :--- | :--- |
-| [Website](https://fruityisgood.github.io/dropdown-roles) | <p>https://img.shields.io/badge/-website-blue</p> |
-| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
-| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
-| [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
+<table>
+	<thead>
+		<tr>
+		<th>Name</th>
+		<th>Description</th>
+		<th>Status</th>
+		</tr>
+	</thead>
+	<tbody>
+		<tr>
+			<td><a href="https://github.com/fosscord/fosscord">Website</a></td>
+			<td>Our website</td>
+			<td>
+				<img src="https://img.shields.io/badge/-website-blue">
+				<img src="https://img.shields.io/website?down_color=red&down_message=down&up_color=green&up_message=up&url=https%3A%2F%2Ffruityisgood.github.io%2Fdropdown-roles">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest">Latest version</a>
+			</td>
+			<td>
+				The latest version of the bot
+			</td>
+			<td>
+				<img src="https://img.shields.io/github/downloads/Fruityisgood/dropdown-roles/latest/total">
+        <img src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?color=yellow&include_prereleases">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://github.com/Fruityisgood/dropdown-roles/#Getting started">
+		Github
+		</a>
+			</td>
+			<td>
+				Our github of course
+			</td>
+			<td>
+				<img src="https://img.shields.io/github/languages/top/Fruityisgood/dropdown-roles?color=red">
+				<img src="https://img.shields.io/badge/Javascript-43.0%25-yellow">
+        <img src="https://img.shields.io/badge/Batchfile-0.3%25-brightgreen">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://fruityisgood.github.io/dropdown-roles/docs">
+				Documentation
+				</a>
+			</td>
+			<td>Our documentation</td>
+			<td>
+				<img src="https://img.shields.io/badge/not%20done-grey">
+			</td>
+		</tr>
+		<tr>
+			<td>
+				<a href="https://discord.gg/vWPf6radPk">
+				Discord
+				</a>
+			</td>
+			<td>A Image manipulation api for adjustable discord rank cards and many more (coming soon)</td>
+			<td>
+				<img src="https://img.shields.io/badge/chat-23458%20online-brightgreen">
+        <img src="https://img.shields.io/badge/members-578K-orange">
+			</td>
+		</tr>
+	</tbody>
+</table>
