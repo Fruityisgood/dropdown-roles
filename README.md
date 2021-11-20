@@ -27,6 +27,8 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/a
 }
 ```
 
+## How to use
+  View [documentation](https://Fruityisgood.github.io/dropdown-roles/docs).
 ## Install
 ```sh
 npm i
@@ -39,3 +41,10 @@ node .
   [our website](https://fruityisgood.github.io/dropdown-roles/)
 ## Support
   [Support server](https://discord.gg/vWPf6radPk)
+## Resources
+  | Repo name | Brief description |
+| :--- | :--- |
+| [Server](https://github.com/fosscord/fosscord-Server) | Fosscord API + Gateway + CDN Server + WebRTC + Admin Dashboard |
+| [Client](https://github.com/fosscord/fosscord-client) | Fosscord Client compatible with fosscord-server and discord.com |
+| [UI](https://github.com/fosscord/fosscord-ui) | Open Source CSS framework in the style of Discord |
+| [Docs](https://github.com/fosscord/fosscord-docs) | Documentation of Fosscord |
