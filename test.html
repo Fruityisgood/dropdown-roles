@@ -1,4 +1,7 @@
-<html lang="en"><head>
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="utf-8">
     <title>JSDoc: Home</title>
 
@@ -12,8 +15,6 @@
 </head>
 
 <body>
-
-
 
 <div id="main">
 
@@ -51,35 +52,43 @@
 <h2>Usage</h2>
 <p>It's simple</p>
 <p>To initialise:</p>
-<pre class="prettyprint source lang-js"><code><span class="kwd">const</span><span class="pln"> webhook </span><span class="pun">=</span><span class="pln"> require</span><span class="pun">(</span><span class="str">"webhook-discord"</span><span class="pun">)</span><span class="pln">
+<pre class="prettyprint source lang-js"><code>const webhook = require(&quot;webhook-discord&quot;)
 
-</span><span class="kwd">const</span><span class="pln"> </span><span class="typ">Hook</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> webhook</span><span class="pun">.</span><span class="typ">Webhook</span><span class="pun">(</span><span class="str">"WEBHOOK URL"</span><span class="pun">)</span></code></pre>
+const Hook = new webhook.Webhook(&quot;WEBHOOK URL&quot;)
+</code></pre>
 <h3>Presets</h3>
 <p>To send an info message:</p>
-<pre class="prettyprint source lang-js"><code><span class="typ">Hook</span><span class="pun">.</span><span class="pln">info</span><span class="pun">(</span><span class="str">"WEBHOOK NAME"</span><span class="pun">,</span><span class="str">"Info"</span><span class="pun">)</span></code></pre>
+<pre class="prettyprint source lang-js"><code>Hook.info(&quot;WEBHOOK NAME&quot;,&quot;Info&quot;)
+</code></pre>
 <p>To send a warning message:</p>
-<pre class="prettyprint source lang-js"><code><span class="typ">Hook</span><span class="pun">.</span><span class="pln">warn</span><span class="pun">(</span><span class="str">"WEBHOOK NAME"</span><span class="pun">,</span><span class="pln"> </span><span class="str">"Warning message"</span><span class="pun">)</span></code></pre>
+<pre class="prettyprint source lang-js"><code>Hook.warn(&quot;WEBHOOK NAME&quot;, &quot;Warning message&quot;)
+</code></pre>
 <p>To send an error message:</p>
-<pre class="prettyprint source lang-js"><code><span class="typ">Hook</span><span class="pun">.</span><span class="pln">err</span><span class="pun">(</span><span class="str">"WEBHOOK NAME"</span><span class="pun">,</span><span class="str">"Error"</span><span class="pun">)</span></code></pre>
+<pre class="prettyprint source lang-js"><code>Hook.err(&quot;WEBHOOK NAME&quot;,&quot;Error&quot;)
+</code></pre>
 <p>To send a success message:</p>
-<pre class="prettyprint source lang-js"><code><span class="typ">Hook</span><span class="pun">.</span><span class="pln">success</span><span class="pun">(</span><span class="str">"WEBHOOK NAME"</span><span class="pun">,</span><span class="str">"Yay we did something right"</span><span class="pun">)</span></code></pre>
+<pre class="prettyprint source lang-js"><code>Hook.success(&quot;WEBHOOK NAME&quot;,&quot;Yay we did something right&quot;)
+</code></pre>
 <h3>Custom messages</h3>
 <p>To send custom messages, you should make use of the MessageBuilder.</p>
 <p>See all the options on the <a href="https://jb3.github.io/webhook-discord/MessageBuilder.html">documentation</a></p>
-<pre class="prettyprint source lang-js"><code><span class="kwd">const</span><span class="pln"> webhook </span><span class="pun">=</span><span class="pln"> require</span><span class="pun">(</span><span class="str">"webhook-discord"</span><span class="pun">);</span><span class="pln">
+<pre class="prettyprint source lang-js"><code>const webhook = require(&quot;webhook-discord&quot;);
 
-</span><span class="kwd">const</span><span class="pln"> </span><span class="typ">Hook</span><span class="pln"> </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> webhook</span><span class="pun">.</span><span class="typ">Webhook</span><span class="pun">(</span><span class="str">"WEBHOOK URL"</span><span class="pun">);</span><span class="pln">
+const Hook = new webhook.Webhook(&quot;WEBHOOK URL&quot;);
 
-</span><span class="kwd">const</span><span class="pln"> msg </span><span class="pun">=</span><span class="pln"> </span><span class="kwd">new</span><span class="pln"> webhook</span><span class="pun">.</span><span class="typ">MessageBuilder</span><span class="pun">()</span><span class="pln">
-                </span><span class="pun">.</span><span class="pln">setName</span><span class="pun">(</span><span class="str">"Username"</span><span class="pun">)</span><span class="pln">
-                </span><span class="pun">.</span><span class="pln">setColor</span><span class="pun">(</span><span class="str">"#aabbcc"</span><span class="pun">)</span><span class="pln">
-                </span><span class="pun">.</span><span class="pln">setText</span><span class="pun">(</span><span class="str">"This is my webhook!"</span><span class="pun">);</span><span class="pln">
-</span><span class="typ">Hook</span><span class="pun">.</span><span class="pln">send</span><span class="pun">(</span><span class="pln">msg</span><span class="pun">);</span></code></pre>
+const msg = new webhook.MessageBuilder()
+                .setName(&quot;Username&quot;)
+                .setColor(&quot;#aabbcc&quot;)
+                .setText(&quot;This is my webhook!&quot;);
+Hook.send(msg);
+</code></pre>
 <h2>Installation</h2>
 <p>Either use npm:</p>
-<pre class="prettyprint source"><code><span class="pln">npm install webhook</span><span class="pun">-</span><span class="pln">discord</span></code></pre>
+<pre class="prettyprint source"><code>npm install webhook-discord
+</code></pre>
 <p>Or clone from source:</p>
-<pre class="prettyprint source"><code><span class="pln">git clone https</span><span class="pun">:</span><span class="com">//github.com/jb3/webhook-discord.git</span></code></pre>
+<pre class="prettyprint source"><code>git clone https://github.com/jb3/webhook-discord.git
+</code></pre>
 <h2>License</h2>
 <p>MIT</p></article>
     </section>
@@ -89,7 +98,9 @@
 
 
 
-</div><nav>
+</div>
+
+<nav>
     <h2><a href="index.html">Home</a></h2><h3>Classes</h3><ul><li><a href="MessageBuilder.html">MessageBuilder</a></li><li><a href="Webhook.html">Webhook</a></li></ul>
 </nav>
 
@@ -101,17 +112,5 @@
 
 <script> prettyPrint(); </script>
 <script src="scripts/linenumber.js"> </script>
-
-
-        <div id="target_ext_element_for" style="position: fixed;
-            width: 100%;
-            height: 100%;
-            top: 0; 
-            display: none; 
-            left: 0; 
-            right: 0; 
-            bottom: 0; 
-            background-color: rgba(0,0,0,0.5); 
-            z-index: 9999999; 
-            cursor: pointer;"></div>
-        </body></html>
+</body>
+</html>
