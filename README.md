@@ -91,9 +91,7 @@ node .
 				Our github of course
 			</td>
 			<td>
-				<img src="https://img.shields.io/github/languages/top/Fruityisgood/dropdown-roles?color=red">
-				<img src="https://img.shields.io/badge/Javascript-43.0%25-yellow">
-        <img src="https://img.shields.io/badge/Batchfile-0.3%25-brightgreen">
+				<img src="https://img.shields.io/github/languages/top/Fruityisgood/dropdown-roles?color=yellow">
 			</td>
 		</tr>
 		<tr>
@@ -113,7 +111,7 @@ node .
 				Discord
 				</a>
 			</td>
-			<td>A Image manipulation api for adjustable discord rank cards and many more (coming soon)</td>
+			<td>Our discord server</td>
 			<td>
 				<img src="https://img.shields.io/badge/chat-23458%20online-brightgreen">
         <img src="https://img.shields.io/badge/members-578K-orange">
