@@ -14,9 +14,9 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/r
 ## Guide
   View [documentation](https://Fruityisgood.github.io/dropdown-roles/docs) for full information on how to use this template..
   ### Steps
-	1. Download the latest version
-	2. If you're using the exe follow the steps in it if not go skip to step 3.
-	3. Enter details in `config.js`
+1. Download the latest version
+2. If you're using the exe follow the steps in it if not go skip to step 3
+3. Enter details in `config.js`
 
 	
 ```js
@@ -34,7 +34,8 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/r
     "r5m":"", //role 5 emoji
 }
 ```
-	4. Start the bot using `start.bat`
+4. Start the bot using `start.bat`
+	
 ## Install
 ```sh
 npm i
