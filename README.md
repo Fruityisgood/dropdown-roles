@@ -21,7 +21,7 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/r
 	
 ```js
 {
-    "token":, //bot token
+    "token":"", //bot token
     "r1":"", //role1id
     "r2":"", //role2id
     "r3":"", //role3id
