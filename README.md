@@ -1,6 +1,6 @@
 <h1 align="center">Dropdown roles</h1>
 <p>
-  <img alt="Version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&label=version" />
+  <a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest"><img alt="Version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&label=version" />
   </a>
   <a href="https://discord.gg/vWPf6radPk"><img alt="chat" src="https://img.shields.io/badge/chat-23458%20online-brightgreen" />
   </a>
