@@ -10,20 +10,45 @@
 
 ## Getting started
 Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/releases/latest/)
-## How to use
-  View [documentation](https://Fruityisgood.github.io/dropdown-roles/docs).
+	
+## Guide
+  View [documentation](https://Fruityisgood.github.io/dropdown-roles/docs) for full information on how to use this template..
+  ### Steps
+	1. Download the latest version
+	2. If you're using the exe follow the steps in it if not go skip to step 3.
+	3. Enter details in `config.js`
+	  ```js
+	{
+    "token":"", //bot token
+    "r1":"", //role1id
+    "r2":"", //role2id
+    "r3":"", //role3id
+    "r4":"", //role4id
+    "r5":"", //role5id
+    "r1m":"", //role 1 emoji
+    "r2m":"", //role 2 emoji
+    "r3m":"", //role 3 emoji
+    "r4m":"", //role 4 emoji
+    "r5m":"", //role 5 emoji
+  
+}
+	```
+	4. Start the bot using `start.bat`
 ## Install
 ```sh
 npm i
 ```
+	
 ## Start
 ```sh
 node .
 ```
+	
 ## Website
   [our website](https://fruityisgood.github.io/dropdown-roles/)
 ## Support
   [Support server](https://discord.gg/vWPf6radPk)
+	
 ## Resources
 <table>
 	<thead>
