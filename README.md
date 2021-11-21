@@ -17,8 +17,9 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/r
 	1. Download the latest version
 	2. If you're using the exe follow the steps in it if not go skip to step 3.
 	3. Enter details in `config.js`
+	
 	  ```js
-	{
+{
     "token":"", //bot token
     "r1":"", //role1id
     "r2":"", //role2id
@@ -30,9 +31,8 @@ Download the source code [here](https://github.com/Fruityisgood/dropdown-roles/r
     "r3m":"", //role 3 emoji
     "r4m":"", //role 4 emoji
     "r5m":"", //role 5 emoji
-  
 }
-	```
+```
 	4. Start the bot using `start.bat`
 ## Install
 ```sh
