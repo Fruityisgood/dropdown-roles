@@ -1,4 +1,4 @@
-<h1 align="center">Dropdown roles</h1>
+<h1 align="center">[ARCHIVED] Dropdown roles</h1>
 <p>
   <a href="https://github.com/Fruityisgood/dropdown-roles/releases/latest"><img alt="Version" src="https://img.shields.io/github/v/release/Fruityisgood/dropdown-roles?include_prereleases&label=version" />
   </a>
